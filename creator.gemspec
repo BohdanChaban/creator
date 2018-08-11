@@ -8,15 +8,15 @@ Gem::Specification.new do |s|
   s.name        = "creator"
   s.version     = Creator::VERSION
   s.authors     = ["Bohdan Chaban"]
-  s.email       = ["bohdan.chaban@itv.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Creator."
-  s.description = "TODO: Description of Creator."
+  s.email       = ["bohdan.chaban@gmail.com"]
+  s.homepage    = "https://github.com/BohdanChaban/creator"
+  s.summary     = "Engine for creating files"
+  s.description = "Rails engine for creating files"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.5"
+  s.add_dependency "rails", "~> 5.1"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "sqlite3", "~> 0"
 end
